@@ -1,0 +1,868 @@
+.main__body {
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/jacet.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__brand {
+    text-align: center;
+
+}
+
+.main__porten {
+    margin-bottom: 80px;
+    margin-top: 160px;
+    padding: 100px 70px;
+    display: inline-block;
+    border: 4px solid #fff;
+}
+
+.main__text::before {
+    content: " ";
+    display: flex;
+    background-color: #fff;
+    height: 2px;
+    width: 179px;
+}
+
+.main__text {
+    margin-top: 5px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__info {
+
+    margin: auto;
+    width: 730px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* ikinchi section sogotla!!!!! */
+
+.block__all-whatch {
+    display: flex;
+}
+
+
+.block__bg {
+    background-image: url(../img/men.png);
+    width: 880px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 880px;
+    background-position: left, ;
+    background-size: cover;
+}
+
+.block__clok {
+    background: #000000;
+}
+
+.block__text {
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+    margin-top: 93px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Sezon afteri ---------------- */
+.block__text::after {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0;
+    transform: translate(278px, 50px);
+}
+
+
+.block__whatches {
+    margin: 0 20px;
+}
+
+.whatch-link {
+    transition: all ease 0.3s;
+    background: #191B1C;
+    padding: 5px 3px;
+}
+
+.whatch-link:hover {
+    transition: all ease 0.3s;
+    background-color: #313436;
+}
+
+.cart__mar {
+    margin-bottom: 10px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.cart__sum {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.block__sections {
+    display: flex;
+}
+
+.block__new-text {
+    margin-bottom: 50px;
+    margin-top: 400px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block__btn-text {
+    width: 120px;
+    padding: 12px 0;
+    border: 3px solid #fff;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block__btn-text:hover {
+    transition: ease all 0.3s;
+    cursor: pointer;
+    color: #000000;
+    background-color: #fff;
+}
+
+.block__btn {
+    text-align: center;
+}
+
+.block__positsion {
+    position: relative;
+}
+
+block__btn-text {
+    background-color: aqua;
+}
+
+/* katalog afteri---------------------------------------------------- */
+.block__new-text::after {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(316px, 20px);
+}
+
+/* new section boshlanishi ----------------------------------------- */
+
+
+
+.new__img {
+    background-image: url(../img/babochka.jpg);
+    width: 720px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.new__allContent {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.new__item {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 150px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.new__item::after {
+    content: " ";
+    width: 120px;
+    height: 3px;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right: 40%;
+}
+
+.new__line::after {
+    position: relative;
+
+}
+
+.new__text {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    width: 471px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.new__btn {
+    width: 290px;
+    transition: all ease 0.3s;
+    border: 1px solid #fff;
+    margin-left: 100px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0;
+    color: #fff
+}
+
+.new__btn:hover {
+    transition: all ease 0.3s;
+    color: #000000;
+    background-color: #fff;
+}
+
+
+
+
+/* sogotlaaa flex sectioni  */
+.whatch__sections {
+    background-color: #000000;
+}
+
+.sold__item {
+
+    padding-top: 120px;
+    margin-bottom: 120px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.sold__line {
+    position: relative;
+}
+
+.sold__item::before {
+    content: " ";
+    width: 130px;
+    height: 1px;
+    background-color: #FFFFFF;
+    display: inline;
+    position: absolute;
+    top: 130%;
+    right: 46%;
+
+}
+
+
+.whach__one {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whatch__sec {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* brend reklamasi  */
+.brend__section {
+
+    background-color: #191B1C;
+
+}
+
+.brend__item {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
+
+.brend__text::after {
+    content: " ";
+    display: block;
+    background-color: #fff;
+    width: 160px;
+    height: 1px;
+    position: absolute;
+    bottom: -58px;
+    right: 44%;
+}
+
+.brend__like {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brend__coco {
+    width: 23%;
+    transition: all ease 0.3s;
+    margin: 0;
+}
+
+.brend__coco:hover {
+    transition: all ease 0.3s;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+.brend__item {
+    position: relative;
+}
+
+/* info__section boshlanishiu ___________--__-____----___---___---___---___--__- */
+
+
+
+
+
+
+
+
+@media (max-width: 1190px) {
+
+    .brend__item {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 60px;
+        margin-bottom: 60px;
+        text-align: center;
+
+    }
+
+    .sold__item {
+        padding-top: 0px;
+        margin-bottom: 100px;
+        }
+
+
+    .block__bg {
+        margin: 0 auto;
+        background-image: url(../img/men.png);
+        width: 880px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 730px;
+        display: flex;
+
+    }
+
+    .new__btn {
+        margin-bottom: 60px;
+
+    }
+
+
+
+    .new__item {
+        margin-right: 0;
+    }
+
+    .new__text {
+        margin-right: 0px;
+
+
+    }
+
+    .new__allContent {
+        background-color: #000000;
+        display: flex;
+
+        flex-direction: column-reverse;
+    }
+
+    .new__img {
+        background-image: url(../img/babochka.jpg);
+        width: 820px;
+        height: 600px;
+        background-position: center;
+        display: none;
+
+    }
+}
+
+
+
+
+
+@media (max-width: 1440px) {
+    .block__new-text::after {
+
+        transform: translate(240px, 20px);
+    }
+}
+
+@media (max-width: 1300px) {
+    .block__new-text::after {
+        transform: translate(170px, 20px);
+    }
+}
+
+@media (max-width: 1250px) {
+    .block__new-text::after {
+        transform: translate(120px, 20px);
+    }
+}
+
+@media (max-width: 1190px) {
+    .block__new-text::after {
+        transform: translate(120px, 20px);
+    }
+
+    .block__all-whatch {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .block__sections {
+        display: block;
+    }
+
+    .block__text {
+        margin-top: auto;
+
+    }
+
+    .block__new-text {
+        margin-left: 250px;
+        margin-top: 250px;
+    }
+
+
+    .block__bg {
+        margin: 0 auto;
+        background-image: url(../img/men.png);
+        width: 880px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 730px;
+        display: flex;
+        backdrop-filter: 55px;
+    }
+
+    .block__btn {
+        margin-left: 230px;
+    }
+}
+
+
+@media (max-width: 880px) {
+
+    .new__img {
+        width: 775px;
+    }
+
+    .block__bg {
+        margin: 0 auto;
+        background-image: url(../img/men.png);
+        width: 600px;
+        background-repeat: no-repeat;
+        height: 730px;
+        display: flex;
+
+    }
+
+    .block__all-whatch {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .block__new-text {
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+
+    .block__btn {
+        margin-left: 100px;
+    }
+}
+
+
+    @media (max-width: 750px) {
+
+        .brend__coco {
+            width: 45%;
+
+        }
+
+
+    .new__img {
+        width: 680px;
+    }
+
+    .block__text::after {
+        content: " ";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background-color: #fff;
+        bottom: 0;
+        transform: translate(250px, 50px);
+    }
+
+    .main__info {
+        margin: 0;
+        width: auto;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .main__porten {
+        margin-bottom: 80px;
+        margin-top: 160px;
+        padding: 100px 49px;
+        display: inline-block;
+        border: 4px solid #fff;
+    }
+}
+
+@media (max-width: 700px) {
+
+
+    .main__info {
+        margin: 0;
+        width: auto;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 600px) {
+    .block__bg {
+        background-image: url(../img/men.png);
+        width: 500px;
+        height: 400px;
+        display: flex;
+        margin: 0px 0;
+        background-repeat: repeat;
+    }
+
+    .block__new-text {
+        font-size: 28px;
+        margin-left: 85px;
+        margin-top: 100px;
+    }
+
+    .block__btn {
+        margin-left: 80px;
+    }
+
+    .block__new-text::after {
+        transform: translate(79px, 20px);
+    }
+
+    .block__text::after {
+        transform: translate(170px, 50px);
+
+    }
+}
+
+@media (max-width: 650px) {
+    .new__img {
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    .brend__like {
+        gap: 20px;
+    }
+
+    .brend__coco {
+        width: 60%;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .block__bg {
+        background-image: url(../img/men.png);
+        width: 465px;
+        height: 400px;
+        display: flex;
+        margin: 0px 0;
+        background-repeat: repeat;
+    }
+
+    .new__btn {
+        width: 290px;
+        transition: all ease 0.3s;
+        border: 1px solid #fff;
+        margin-left: 100px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 12px 0;
+        color: #fff;
+
+
+    }
+
+    .block__bg {
+        background-image: url(../img/men.png);
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .block__new-text {
+        font-size: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+
+    .block__btn {
+        margin-left: 39px;
+    }
+
+    .block__new-text::after {
+        transform: translate(57px, 20px);
+    }
+
+    .block__text::after {
+        transform: translate(90px, 50px);
+
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .new__img {
+        width: 420px;
+    }
+
+    .main__info {
+        margin: 0;
+        width: auto;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .new__text {
+        width: 100%;
+    }
+    new__text-colection {
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    .new__img {
+        width: 360px;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+
+
+    .new__text {
+        text-align: center;
+        font-size: 12px;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .new__btn {
+        width: 150px;
+        transition: all ease 0.3s;
+        border: 1px solid #fff;
+        margin-left: 40px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 12px 0;
+        color: #fff;
+    }
+
+    .block__bg {
+        background-image: url(../img/men.png);
+        width: 340px;
+        height: 400px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .block__new-text {
+        line-height: 20px;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+
+    .block__btn {
+        margin-left: 50px;
+    }
+
+    .block__new-text::after {
+        transform: translate(50px, 20px);
+    }
+
+    .block__text::after {
+        transform: translate(90px, 50px);
+
+    }
+}
+
+
+@media (max-width: 378px) {
+    .block__bg {
+        background-image: url(../img/men.png);
+        width: 300px;
+        height: 400px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .block__new-text {
+        line-height: 20px;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+
+    .block__btn {
+        margin-left: 50px;
+    }
+
+    .block__new-text::after {
+        transform: translate(50px, 20px);
+    }
+
+    .block__text::after {
+        transform: translate(90px, 50px);
+    }
+
+    .header__none {
+        display: none;
+    }
+
+}
